@@ -47,7 +47,7 @@ python interface.py
 
 ### Обучение модели 
 
-Я взял [rubert-base-cased](https://huggingface.co/DeepPavlov/rubert-base-cased) и дообучил ее на многоклассовую классификацию, код с обучением также предоставляю. 
+Я взял [rubert-base-cased](https://huggingface.co/DeepPavlov/rubert-base-cased) и дообучил ее на многоклассовую классификацию, код с обучением также предоставляю (bubuka.ipynb). 
 
 Метрики мой модели, которые я считал со своего же датасета (с части которую не видела модель)
 ![Снимок экрана 2024-09-16 в 12 25 10](https://github.com/user-attachments/assets/c418dec4-3a49-4ca2-8b11-dc145f08d9ef)
