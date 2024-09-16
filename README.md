@@ -5,7 +5,7 @@
 Поскольку модель слишком большая необходимо ее скачать папку с моделью и токенизатором из https://drive.google.com/drive/folders/1iC3Drhlkoo_fvF2yXPVPhLxSBjmmWetE?usp=sharing и сохранить, как папку model.
 Должна получиться такая иерархия
 ```
-your_project/
+bubuka/
 ├── interface.py
 ├── model/
 │   ├── config.json
@@ -15,4 +15,11 @@ your_project/
 │   ├── vocab.txt
 └── templates/
     └── index.html
+```
+
+### Запуск проекта
+
+Web-приложение запускается командой 
+```bash
+python interface.py
 ```
