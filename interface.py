@@ -4,12 +4,12 @@ import torch
 
 app = Flask(__name__)
 
-# Загрузка модели и токенизатора
-model = BertForSequenceClassification.from_pretrained('/Users/nikitaklenskij/Documents/programs/bubuka/model')
-tokenizer = BertTokenizer.from_pretrained('/Users/nikitaklenskij/Documents/programs/bubuka/model')
+model_path = 'model'
+
+model = BertForSequenceClassification.from_pretrained(model_path)
+tokenizer = BertTokenizer.from_pretrained(model_path)
 
 
-# Категории
 categories = ['Грусть/Печаль/Страдания', 'Оптимизм/Веселье/Счастье', 'Новый год/Рождество', 
         'Любовь/Романтика', 'Патриотическая песня', 'Лето', 'Осень'
 ]
@@ -30,3 +30,6 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
