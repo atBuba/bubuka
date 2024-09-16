@@ -2,7 +2,7 @@
 
 ### Загрузка модели
 
-Поскольку модель слишком большая необходимо ее скачать папку с моделью и токенизатором из [гугл диска]Щ(https://drive.google.com/drive/folders/1iC3Drhlkoo_fvF2yXPVPhLxSBjmmWetE?usp=sharing) и сохранить, как папку model.
+Поскольку модель слишком большая необходимо ее скачать папку с моделью и токенизатором из [гугл диска](https://drive.google.com/drive/folders/1iC3Drhlkoo_fvF2yXPVPhLxSBjmmWetE?usp=sharing) и сохранить, как папку model.
 Должна получиться такая иерархия
 ```
 bubuka/
